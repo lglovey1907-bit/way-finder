@@ -1,0 +1,485 @@
+{
+ "facilities": {
+  "d3": {
+   "cat": "water",
+   "name": "Drinking Water (RO)",
+   "node": "pl3_1",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "b3": {
+   "cat": "ticket",
+   "name": "ATVM Machines",
+   "node": "cP_0",
+   "note": "Unreserved tickets · card and UPI",
+   "status": "open",
+   "statusNote": ""
+  },
+  "b4": {
+   "cat": "ticket",
+   "name": "ATVM Machines",
+   "node": "cA_6",
+   "note": "Unreserved tickets · card and UPI",
+   "status": "open",
+   "statusNote": ""
+  },
+  "x2": {
+   "cat": "transport",
+   "name": "Prepaid Auto Booth",
+   "node": "cA_0",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "b1": {
+   "cat": "ticket",
+   "name": "Booking & Reservation Counters (UTS / PRS)",
+   "node": "cP_4",
+   "note": "Booking, reservation and enquiry near Gate 4",
+   "status": "open",
+   "statusNote": ""
+  },
+  "f1": {
+   "cat": "food",
+   "name": "Food Plaza",
+   "node": "cP_5",
+   "note": "Seated restaurant",
+   "status": "open",
+   "statusNote": ""
+  },
+  "l2": {
+   "cat": "lounge",
+   "name": "AC Lounge",
+   "node": "pl8_4",
+   "note": "Paid · AC seating, charging points",
+   "status": "open",
+   "statusNote": ""
+  },
+  "d1": {
+   "cat": "water",
+   "name": "Drinking Water (RO)",
+   "node": "pl0_2",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "d2": {
+   "cat": "water",
+   "name": "Drinking Water (RO)",
+   "node": "pl1_5",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "r2": {
+   "cat": "retiring",
+   "name": "Retiring Rooms",
+   "node": "cA_2",
+   "note": "First floor",
+   "status": "open",
+   "statusNote": ""
+  },
+  "m2": {
+   "cat": "medical",
+   "name": "First Aid Post",
+   "node": "cA_5",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "t5": {
+   "cat": "toilet",
+   "name": "Toilets",
+   "node": "pl6_5",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "l1": {
+   "cat": "lounge",
+   "name": "Executive Lounge",
+   "node": "pl0_3",
+   "note": "IRCTC · paid by the hour · AC, Wi-Fi, buffet",
+   "status": "open",
+   "statusNote": ""
+  },
+  "w4": {
+   "cat": "waiting",
+   "name": "Sleeper Class Waiting Hall",
+   "node": "pl8_1",
+   "note": "Free for all ticket holders",
+   "status": "open",
+   "statusNote": ""
+  },
+  "d5": {
+   "cat": "water",
+   "name": "Drinking Water (RO)",
+   "node": "pl7_3",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "w3": {
+   "cat": "waiting",
+   "name": "General Waiting Hall",
+   "node": "pl6_3",
+   "note": "Free for all ticket holders",
+   "status": "open",
+   "statusNote": ""
+  },
+  "l3": {
+   "cat": "lounge",
+   "name": "AC Lounge",
+   "node": "pl4_5",
+   "note": "Paid · AC seating",
+   "status": "open",
+   "statusNote": ""
+  },
+  "f2": {
+   "cat": "food",
+   "name": "Jan Ahaar",
+   "node": "pl8_3",
+   "note": "Budget meals",
+   "status": "open",
+   "statusNote": ""
+  },
+  "w1": {
+   "cat": "waiting",
+   "name": "Upper Class Waiting Room",
+   "node": "pl0_1",
+   "note": "For AC and first-class ticket holders",
+   "status": "open",
+   "statusNote": ""
+  },
+  "t6": {
+   "cat": "toilet",
+   "name": "Toilets",
+   "node": "pl8_2",
+   "note": "Pay and use",
+   "status": "open",
+   "statusNote": ""
+  },
+  "w2": {
+   "cat": "waiting",
+   "name": "Ladies Waiting Room",
+   "node": "pl0_5",
+   "note": "Women passengers",
+   "status": "open",
+   "statusNote": ""
+  },
+  "x1": {
+   "cat": "transport",
+   "name": "Prepaid Taxi Booth",
+   "node": "cP_0",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "c2": {
+   "cat": "cloak",
+   "name": "Cloak Room",
+   "node": "cA_1",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "e2": {
+   "cat": "enquiry",
+   "name": "Enquiry Counter",
+   "node": "cA_4",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "e1": {
+   "cat": "enquiry",
+   "name": "Enquiry Counter",
+   "node": "cP_4",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "f4": {
+   "cat": "food",
+   "name": "Refreshment Stall",
+   "node": "pl5_1",
+   "note": "Tea and snacks",
+   "status": "open",
+   "statusNote": ""
+  },
+  "x3": {
+   "cat": "transport",
+   "name": "Parking",
+   "node": "cA_6",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "c1": {
+   "cat": "cloak",
+   "name": "Cloak Room",
+   "node": "cP_1",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "t1": {
+   "cat": "toilet",
+   "name": "Toilets",
+   "node": "cP_1",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "d4": {
+   "cat": "water",
+   "name": "Drinking Water (RO)",
+   "node": "pl5_4",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "b2": {
+   "cat": "ticket",
+   "name": "Booking Office (UTS / PRS)",
+   "node": "cA_3",
+   "note": "Unreserved and reservation counters",
+   "status": "open",
+   "statusNote": ""
+  },
+  "m1": {
+   "cat": "medical",
+   "name": "First Aid Post",
+   "node": "pl0_6",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "x4": {
+   "cat": "transport",
+   "name": "Airport Express Metro",
+   "node": "cA_5",
+   "note": "Metro entrance",
+   "status": "open",
+   "statusNote": ""
+  },
+  "t7": {
+   "cat": "toilet",
+   "name": "Toilets",
+   "node": "cA_5",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "t2": {
+   "cat": "toilet",
+   "name": "Toilets",
+   "node": "pl0_4",
+   "note": "Pay and use",
+   "status": "open",
+   "statusNote": ""
+  },
+  "r1": {
+   "cat": "retiring",
+   "name": "Retiring Rooms",
+   "node": "cP_2",
+   "note": "First floor",
+   "status": "open",
+   "statusNote": ""
+  },
+  "f3": {
+   "cat": "food",
+   "name": "Refreshment Stall",
+   "node": "pl3_4",
+   "note": "Tea and snacks",
+   "status": "open",
+   "statusNote": ""
+  },
+  "t4": {
+   "cat": "toilet",
+   "name": "Toilets",
+   "node": "pl4_3",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "t3": {
+   "cat": "toilet",
+   "name": "Toilets",
+   "node": "pl2_1",
+   "note": "",
+   "status": "open",
+   "statusNote": ""
+  },
+  "b5": {
+   "cat": "ticket",
+   "name": "Booking Counters (UTS)",
+   "node": "cP_0",
+   "note": "Unreserved tickets near Gate 1",
+   "status": "open",
+   "statusNote": ""
+  },
+  "b6": {
+   "cat": "ticket",
+   "name": "ATVM Machines",
+   "node": "cP_4",
+   "note": "Near Gate 4 · card and UPI",
+   "status": "open",
+   "statusNote": ""
+  }
+ },
+ "qrpoints": {
+  "ag-gate10": {
+   "acc": null,
+   "area": "A",
+   "kind": "Gate",
+   "lat": null,
+   "lng": null,
+   "name": "Gate 10",
+   "nameHi": "गेट 10",
+   "x": 880
+  },
+  "pg-gate1": {
+   "acc": null,
+   "area": "P",
+   "kind": "Gate",
+   "lat": null,
+   "lng": null,
+   "name": "Gate 1",
+   "nameHi": "गेट 1",
+   "x": 130
+  },
+  "ag-gate6": {
+   "acc": null,
+   "area": "A",
+   "kind": "Gate",
+   "lat": null,
+   "lng": null,
+   "name": "Gate 6",
+   "nameHi": "गेट 6",
+   "x": 130
+  },
+  "pf8-fob2": {
+   "acc": null,
+   "area": "pl4",
+   "kind": "FOB stairs / lift",
+   "lat": null,
+   "lng": null,
+   "name": "Platform 8/9 · FOB 2",
+   "nameHi": "",
+   "x": 880
+  },
+  "pf4-fob1": {
+   "acc": null,
+   "area": "pl2",
+   "kind": "FOB stairs / lift",
+   "lat": null,
+   "lng": null,
+   "name": "Platform 4/5 · FOB 1 stairs",
+   "nameHi": "",
+   "x": 330
+  },
+  "pg-gate4": {
+   "acc": null,
+   "area": "P",
+   "kind": "Gate",
+   "lat": null,
+   "lng": null,
+   "name": "Gate 4 · Entry",
+   "nameHi": "गेट 4 · प्रवेश",
+   "x": 690
+  },
+  "pg-gate2": {
+   "acc": null,
+   "area": "P",
+   "kind": "Gate",
+   "lat": null,
+   "lng": null,
+   "name": "Gate 2 · Closed",
+   "nameHi": "गेट 2 · बंद",
+   "x": 330
+  },
+  "pg-gate5": {
+   "acc": null,
+   "area": "P",
+   "kind": "Gate",
+   "lat": null,
+   "lng": null,
+   "name": "Gate 5 · Entry & exit",
+   "nameHi": "गेट 5 · प्रवेश व निकास",
+   "x": 880
+  },
+  "pf1-mid": {
+   "acc": null,
+   "area": "pl0",
+   "kind": "Platform",
+   "lat": null,
+   "lng": null,
+   "name": "Platform 1 · middle",
+   "nameHi": "",
+   "x": 510
+  },
+  "pf16-south": {
+   "acc": null,
+   "area": "pl8",
+   "kind": "Platform",
+   "lat": null,
+   "lng": null,
+   "name": "Platform 16 · Gate 1 end",
+   "nameHi": "",
+   "x": 130
+  },
+  "ag-gate7": {
+   "acc": null,
+   "area": "A",
+   "kind": "Gate",
+   "lat": null,
+   "lng": null,
+   "name": "Gate 7",
+   "nameHi": "गेट 7",
+   "x": 330
+  },
+  "pf12-mid": {
+   "acc": null,
+   "area": "pl6",
+   "kind": "Platform",
+   "lat": null,
+   "lng": null,
+   "name": "Platform 12/13 · middle",
+   "nameHi": "",
+   "x": 510
+  },
+  "pg-gate3": {
+   "acc": null,
+   "area": "P",
+   "kind": "Gate",
+   "lat": null,
+   "lng": null,
+   "name": "Gate 3 · Exit only",
+   "nameHi": "गेट 3 · केवल निकास",
+   "x": 510
+  },
+  "ag-gate8": {
+   "acc": null,
+   "area": "A",
+   "kind": "Gate",
+   "lat": null,
+   "lng": null,
+   "name": "Gate 8 · Main entrance",
+   "nameHi": "गेट 8 · मुख्य प्रवेश",
+   "x": 510
+  },
+  "ag-gate9": {
+   "acc": null,
+   "area": "A",
+   "kind": "Gate",
+   "lat": null,
+   "lng": null,
+   "name": "Gate 9",
+   "nameHi": "गेट 9",
+   "x": 690
+  }
+ },
+ "photos": {}
+}

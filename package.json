@@ -1,0 +1,28 @@
+{
+  "name": "ndls-wayfinder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "demo": "next build && next start -H 0.0.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.117.2",
+    "@upstash/redis": "1.39.0",
+    "@vercel/blob": "2.8.0",
+    "jsqr": "1.4.0",
+    "jszip": "3.10.1",
+    "leaflet": "1.9.4",
+    "maplibre-gl": "4.7.1",
+    "next": "^16.4.1",
+    "qrcode-generator": "1.4.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.128.0"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}
