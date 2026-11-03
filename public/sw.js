@@ -1,6 +1,6 @@
 // NDLS Wayfinder service worker: keeps the app and the last station data usable when the
 // signal drops on platforms or under foot over bridges.
-const V = 'wf-v49';
+const V = 'wf-v50';
 const SHELL = ['/', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {

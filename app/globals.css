@@ -1128,3 +1128,6 @@ header.top:not(.staff){flex-wrap:nowrap;align-items:flex-start}
 header.top:not(.staff) #tabs{display:none}
 header.top:not(.staff) .top-right{margin-left:auto;flex:0 0 auto}
 header.top:not(.staff) #staffLink{font-size:12px;font-weight:500;padding:2px 4px;border:0;background:none;color:var(--muted,#6B7280);text-decoration:underline;text-underline-offset:2px;opacity:.85;white-space:nowrap}
+
+/* one-way walkways in the station map editor */
+.ime-oneway span{display:block;width:16px;height:16px;line-height:16px;text-align:center;font-size:11px;color:#fff;background:#E8710A;border-radius:50%;box-shadow:0 1px 3px rgba(0,0,0,.4)}
