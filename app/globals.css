@@ -1159,3 +1159,9 @@ header.top:not(.staff) #staffLink{font-size:12px;font-weight:500;padding:2px 4px
 .ime-svp i{position:absolute;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#fff;border:2px solid #E37400}
 .ime-svp.k-fob i{border-color:#5C6BC0}.ime-svp.k-gate i,.ime-svp.k-entry i{border-color:#202124;border-radius:2px}.ime-svp.k-pillar i{border-color:#8D6E63}
 .ime-svp span{position:absolute;left:8px;top:-7px;white-space:nowrap;font:700 10.5px/1 system-ui,sans-serif;color:#202124;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px #fff;pointer-events:none}
+
+/* Draw the map: bridge point numbers, like Record on site */
+.ime-fobn b{font-size:11px;padding:3px 5px}
+.ime-fobn.off{opacity:.35;pointer-events:none}
+.ime-fobn b{position:relative;transform:translate(8px,-130%)}
+.ime-fobn b::after{content:"";position:absolute;left:-5px;bottom:-5px;width:6px;height:6px;border-radius:50%;background:#1D59C4;border:1.5px solid #fff}
