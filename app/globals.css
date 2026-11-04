@@ -1146,3 +1146,16 @@ header.top:not(.staff) #staffLink{font-size:12px;font-weight:500;padding:2px 4px
 /* labels appear when zoomed in, so the overview stays clear */
 .ivm-am em,.ivm-pt span{display:none}
 .ivm.z18 .ivm-am em,.ivm.z18 .ivm-pt span{display:block}
+
+/* Draw the map: names and Record on site points */
+.ime-tag{width:0;height:0}
+.ime-tag span{position:absolute;transform:translate(-50%,-50%);white-space:nowrap;font:800 12px/1 system-ui,sans-serif;padding:3px 6px;border-radius:6px;background:rgba(255,255,255,.92);color:#202124;border:1px solid #9AA0A6;pointer-events:none}
+.ime-tag.k-pf span{background:#3C2A12;color:#FFD54F;border-color:#3C2A12}
+.ime-tag.k-fob span{background:#E8F0FE;color:#1A237E;border-color:#5C6BC0}
+.ime-tt{font:700 11px/1.2 system-ui,sans-serif;padding:2px 5px;border-radius:5px;box-shadow:none;border:1px solid #DADCE0;background:rgba(255,255,255,.95);color:#202124}
+.ime-tt.small{font-size:10px;background:#202124;color:#fff;border-color:#202124}.ime-tt::before{display:none}
+.ime-tt.qr{background:#FFF8E1;border-color:#F9AB00}
+.ime-svp{width:0;height:0}
+.ime-svp i{position:absolute;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#fff;border:2px solid #E37400}
+.ime-svp.k-fob i{border-color:#5C6BC0}.ime-svp.k-gate i,.ime-svp.k-entry i{border-color:#202124;border-radius:2px}.ime-svp.k-pillar i{border-color:#8D6E63}
+.ime-svp span{position:absolute;left:8px;top:-7px;white-space:nowrap;font:700 10.5px/1 system-ui,sans-serif;color:#202124;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px #fff;pointer-events:none}
