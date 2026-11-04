@@ -1131,3 +1131,18 @@ header.top:not(.staff) #staffLink{font-size:12px;font-weight:500;padding:2px 4px
 
 /* one-way walkways in the station map editor */
 .ime-oneway span{display:block;width:16px;height:16px;line-height:16px;text-align:center;font-size:11px;color:#fff;background:#E8710A;border-radius:50%;box-shadow:0 1px 3px rgba(0,0,0,.4)}
+
+/* map labels */
+.ivm.z18 .ivm-am.lbl span{display:block}
+.ivm-am em{position:absolute;left:12px;top:-22px;font:800 10px/1 system-ui,sans-serif;font-style:normal;background:#202124;color:#fff;padding:2px 4px;border-radius:4px;white-space:nowrap;pointer-events:none}
+.ivm-am.dim em{display:none}
+.ivm-pt{position:relative;width:0;height:0}
+.ivm-pt i{position:absolute;left:0;top:0;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:2px;background:#F9AB00;border:1.5px solid #202124}
+.ivm-pt.k-gate i{background:#455A64;border-color:#fff}
+.ivm-pt span{position:absolute;left:8px;top:-7px;white-space:nowrap;font:700 11px/1 system-ui,sans-serif;color:#202124;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 3px #fff;pointer-events:none}
+.ivm-pt.other{opacity:.25}
+.ime-lbls{display:grid;gap:2px}
+.hero-fabs #heroLbl span{font-size:22px}
+/* labels appear when zoomed in, so the overview stays clear */
+.ivm-am em,.ivm-pt span{display:none}
+.ivm.z18 .ivm-am em,.ivm.z18 .ivm-pt span{display:block}
